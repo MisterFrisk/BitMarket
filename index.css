@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    background-color:green;
+    margin: 0;
+}
+
+header {
+    justify-content: space-between;
+    padding:0.5% ;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: greenyellow;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    float: right;
+    height: 80%;
+    margin-top: 1%;
+    
+}
+
+
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: white;
+    padding: 3%;
+    width: 400px;
+    margin:5% 1% 5% 5%;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+}
+
+footer {
+    background-color: white;
+    padding: ;
+    display: flex
+}
+
+footer a {
+    margin-right: ;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+nav a{
+    position: absolute;
+    left:-80px;
+    transition: 0.75s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius:0px 5px 5px 0px;
+    
+    
+    
+}
+nav a:hover{
+    left:0;
+    color:darkblue;
+    
+}
+
+.nav1{
+    top: 31%;
+    background-color:#4CAF50 ;
+    color: #4CAF50;
+
+}
+
+.nav2{
+    top: 40%;
+    background-color:#2196F3 ;
+    color: #2196F3;
+}
+
+.nav3{
+    top: 49%;
+    background-color: #f44336;
+    color: #f44336;
+}
+
+.nav4{
+    top: 60%;
+   background-color: blanchedalmond;
+   color:blanchedalmond ;
+   
+}
+
+.nav5{
+    top: 69%;
+   background-color: darkmagenta;
+   color: darkmagenta;
+}
+
+.nav6{
+    top: 78%;
+   background-color: royalblue;
+   color: royalblue;
+}
+
+
+
+
+
+
+article img{
+    opacity: 0.5;
+}
+
+
+
+article img:hover {
+   opacity: 1;
+}
