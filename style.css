@@ -45,6 +45,7 @@ p {
     width: 1100px;
     margin: 0px;
     display: flex;
+    margin-left: 10%
 }
 
 article {
